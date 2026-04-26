@@ -1,0 +1,268 @@
+.t-Breadcrumb-label {
+    display: none;
+}
+.custom_div{
+    margin:14px 0 0 0 ;
+}
+.custom_btn{
+    border-radius: 3px;
+}
+.element {
+	border-width: 0.5px;
+  	border: 0.5px solid grey;
+    border-radius: 3px;
+}
+.apex-item-group--popup-lov {
+  border: 0.5px solid grey;
+}
+.apex-item-datepicker {
+    background-color: #fbefc2;
+}
+.t-Report-wrap{
+    border-radius: 20px;
+}
+.t-Report-colHead {
+    background-color: #8ed4f0;
+    border-color: rgb(245, 29, 29);
+    border-style: solid;
+    outline-color: rgb(245, 29, 29);
+    outline-offset: solid;
+    line-height: 0.6rem;
+    vertical-align: middle;
+    border-width: 1.5px;
+    color: #5908f0;
+    /*border-radius: 8px;*/
+}
+.t-Report-cell {
+    border-color: rgb(245, 29, 29);
+    background-color: rgb(249, 251, 251);
+    /*border-radius: 8px;*/
+    }
+.t-Region-title {
+    color: #06834f;
+    border-color: rgb(245, 29, 29);
+    line-height: 1.5px;
+    border-radius: 8px;
+    /*background-color: rgb(175, 230, 233);*/
+}
+.t-Region {
+    margin-top: 8px; /* Adjust the value as needed */
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: rgb(245, 29, 29);
+    border-radius: 8px;
+    background-color: #dcf8f2;
+   }
+.t-Region-header {
+    border-block-end-style: solid;
+    border-block-end-color: rgb(245, 29, 29);
+    border-block-end-width: 1.5px;
+    border-radius: 8px;
+    background-color: #dcf8f2;
+}
+.t-ButtonRegion  {
+    margin-top: 10px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: rgb(245, 29, 29);
+    background-color: #dcf8f2;
+    border-radius: 8px;
+}
+
+
+
+.t-NavigationBar-item.has-username .t-Button-label {
+    text-transform: uppercase;
+}
+
+.my-text-field {
+    top: 1px;
+    background-color: #dcf8f2; /* White with 50% transparency */
+    border: 1px solid rgb(243, 8, 8);
+    padding: 1px 4px; /* Adjust padding to control left and right gap */
+    border-radius: 8px;
+    font-size: 12px;
+    width: 100px; /* Adjust width as needed */
+    padding-left: 2px;   /* Adjust left padding */
+    padding-right: 2px;  /* Adjust right padding */
+    padding-bottom: 2px;
+    margin-top: 1px;   /* Adjust left margin */
+    margin-bottom: 2px;
+}
+
+.my-rounded-heading {
+    background-color: #dcf8f2; /* Example background color */
+    color: rgb(42, 42, 44); /* Example text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block; /* Ensures the element only takes up as much width as needed */
+}
+
+.t-Report-colHead th {
+    background-color: #007bff; /* Example background color */
+    color: rgb(236, 6, 6); /* Example text color */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    font-weight: bold; /* Bold font */
+}
+
+.ui-dialog {
+    border-radius: 6px; /* Rounded corners */
+    background-color: #dcf8f2; /* Background color */
+}
+
+/* Style for the dialog content area */
+.ui-dialog-content {
+    padding: 10px; /* Padding inside the dialog */
+    font-size: 18px; /* Font size for text inside */
+    color: rgb(156, 10, 10); /* Text color */
+}
+
+/* Style for dialog buttons */
+.ui-dialog-buttonset button {
+    margin-left: 5px; /* Margin between buttons */
+    background-color: #3c34e4f1; /* Button background color */
+    color: rgb(201, 16, 16); /* Button text color */
+    border: none; /* Remove button borders */
+    padding: 8px 16px; /* Padding inside buttons */
+    cursor: pointer; /* Cursor style */
+    border-radius: 60px; /* Rounded corners */
+}
+
+/* Hover and focus styles for buttons */
+.ui-dialog-buttonset button:hover,
+.ui-dialog-buttonset button:focus {
+    background-color: #007bff; /* Darker color on hover/focus */
+}
+
+
+/* Target the Inline Dialog */
+.ui-dialog--inline {
+    position: fixed; /* Keep the dialog fixed relative to the viewport */
+    top: 0; /* Position at the top of the viewport */
+    left: 0; /* Position at the left of the viewport */
+    width: 100% !important; /* Make the dialog width 100% of the viewport */
+    height: 100% !important; /* Make the dialog height 100% of the viewport */
+    max-width: none !important; /* Remove any maximum width limit */
+    max-height: none !important; /* Remove any maximum height limit */
+    margin: 0 !important; /* Remove any margins */
+}
+
+
+
+
+#appr_com {
+    margin-top: 10px; /* Adjust the value as needed */
+}
+#Det_Report {
+    margin-top: 10px; /* Adjust the value as needed */
+}
+
+.t-Button--hot {
+    border-radius: 10px; /* Adjust the radius to make the button more or less round */
+    padding: 7px 14px; /* Adjust padding as needed */
+}
+
+
+#report_Det_Report {
+    width: 100%; /* Adjust as needed */
+    max-width: 100%; /* Ensure it doesn't exceed the screen width */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.t-MegaMenu-list--top > .t-MegaMenu-item > .t-MegaMenu-itemBody .t-Icon:not(.fa-lg) {
+  color: #a31b44;
+  font-size: 18px; /* Adjust the size of the icon */
+  margin-right: 5px; /* Add some space to the right of the icon */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+  border-radius: 8px;
+}
+
+/* Add a hover effect */
+.t-MegaMenu-list--top > .t-MegaMenu-item > .t-MegaMenu-itemBody :hover {
+  color: #ec098d; /* Darker color on hover */
+}
+
+/* Assuming .t-MegaMenu-item represents the menu item you want to style */
+
+.t-MegaMenu-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2709ee; /* Text color */
+    background-color: rgb(157, 227, 245); /* Background color */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+
+    /* 3D transform effect */
+    transform: perspective(900px) rotateX(5deg);
+}
+
+/* Hover effect (optional) */
+.t-MegaMenu-item:hover {
+    transform: perspective(1000px) rotateX(0deg) translateY(-5px); /* Adjust translateY for lift effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); /* Adjust shadow for hover state */
+    color: #a31b44;
+}
+
+.a-FileDrop {
+  /*background-color: #64d6eb; /* Change background color as needed */
+  border: 1px dashed rgb(245, 10, 10); /* Example border style */
+  padding: 10px; /* Example padding */
+  text-align: center; /* Center content within dropzone */
+  color: rgba(236, 3, 3, 0.863); /* Example text color */
+}
+
+
+
+/* Styling for file upload button */
+.a-FileDrop-action-choose {
+  background-color: #337ab7; /* Example button background color */
+  color: #fff; /* Example button text color */
+  padding: 8px 20px; /* Example button padding */
+  border: none; /* Example button border */
+  cursor: pointer; /* Example button cursor */
+}
+
+/* Styling for file upload remove button */
+.a-FileDrop-remove {
+  background-color: #ccc; /* Example remove button background color */
+  color: #333; /* Example remove button text color */
+  border: none; /* Example remove button border */
+  cursor: pointer; /* Example remove button cursor */
+}
+
+
+@media (min-width: 601px){
+#LoadData {
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    background-color: #89f541; /* Darker Red on hover */
+    cursor: pointer;
+}}
+
+#SaveData {
+    float: right;
+    margin-right: 10px; /* Optional: Adjust margin as needed */
+    background-color: #0ef1f5; /* Darker Red on hover */
+    cursor: pointer;
+}
+
+
+#P63_L_CATEGORY {
+    color: #1418ec; /* Font color */
+    background-color: hsl(29, 92%, 90%); /* Background color */
+    font-weight: bold;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
