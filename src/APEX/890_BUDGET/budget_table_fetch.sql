@@ -1,0 +1,13 @@
+select BRAND,
+       BUDGETED_EXP_NATURE,
+       BUD_AMOUNT,
+       BUSINESS_CODE,
+       DEPARTMENT_CODE,
+       DEPARTMENT,
+       BUSINESS_TAG,
+       BUDGET_ID,
+       BUDGET_ID AS EDIT
+  from XXREN_MKT_EXPENSE_BUDGET
+
+
+
